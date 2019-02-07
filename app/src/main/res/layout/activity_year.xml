@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_dark_background"
+    android:orientation="vertical"
+    tools:context=".activities.YEAR">
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFF7D505"
+        android:padding="20dp"
+        android:layout_margin="10dp"
+        android:text="@string/button_name1"
+        android:textColor="@color/cardview_dark_background"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="51dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#FFF7D505"
+        android:padding="20dp"
+        android:text="@string/button_name2"
+        android:textColor="@color/cardview_dark_background"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="146dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:layout_margin="10dp"
+        android:background="#FFF7D505"
+        android:padding="20dp"
+        android:text="@string/button_name3"
+        android:textColor="@color/cardview_dark_background"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="231dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:layout_margin="10dp"
+        android:background="#FFF7D505"
+        android:padding="20dp"
+        android:text="@string/button_name4"
+        android:textColor="@color/cardview_dark_background"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="320dp" />
+
+
+</LinearLayout>

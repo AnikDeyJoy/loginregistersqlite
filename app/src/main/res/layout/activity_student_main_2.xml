@@ -1,0 +1,91 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9d9ee4"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".activities.StudentMainActivity" >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="343dp"
+        android:layout_height="49dp"
+        android:src="@drawable/screenshot" />
+
+    <EditText
+        android:id="@+id/roll_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Roll No:"
+        android:textColorHint="#000000"
+        android:textColor="#000000"
+        android:inputType="number">
+
+        <requestFocus />
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Your Name"
+        android:textColorHint="#000000"
+        android:textColor="#060600" />
+
+    <EditText
+        android:id="@+id/marks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Marks"
+        android:textColorHint="#000000"
+        android:textColor="#000000"
+        android:inputType="numberDecimal" />
+
+
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/viewbtn"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:text="View"
+            android:textColor="#001eff" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView_id"
+        android:layout_width="342dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:textColor="#060000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView_id_1"
+        android:layout_width="342dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+
+</LinearLayout>
+
+
+
+
+
